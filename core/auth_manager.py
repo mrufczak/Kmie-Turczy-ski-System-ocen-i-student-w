@@ -26,7 +26,7 @@ class AuthManager:
         user_data = self.users.get(login)
 
         if not user_data:
-            return 0
+            return None
 
         stored_hash = user_data.get('password_hash')
         provided_hash = self._hash_password(password)
@@ -40,4 +40,4 @@ class AuthManager:
                 "index_number": user_data.get('index_number') 
             }
         else:
-            return 1  
+            return None  
