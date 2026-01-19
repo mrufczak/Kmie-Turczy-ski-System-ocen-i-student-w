@@ -1,0 +1,22 @@
+{
+    "kowalski": {
+        "password_hash": "ad6a280417a0f533d8b670c61667e1a0",
+        "role": "student",
+        "first_name": "Jan",
+        "last_name": "Kowalski",
+        "index_number": "123456"
+    },
+    "nowak": {
+        "password_hash": "ad6a280417a0f533d8b670c61667e1a0",
+        "role": "student",
+        "first_name": "Anna",
+        "last_name": "Nowak",
+        "index_number": "654321"
+    },
+    "admin": {
+        "password_hash": "0192023a7bbd73250516f069df18b500",
+        "role": "pracownik",
+        "first_name": "Dr",
+        "last_name": "Prowadzacy"
+    }
+}
